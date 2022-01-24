@@ -4,7 +4,8 @@
   "description": "Auth Server for interview crack",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
   "author": "sidhantsharma293",
   "license": "ISC",
