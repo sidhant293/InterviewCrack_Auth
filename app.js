@@ -6,11 +6,9 @@ app.use(express.json());
 
 app.use('/validate',validation);
 
-
-const port=process.env.port || '5000';
-
 app.get('/',(req,res)=>{
     res.send(`InterviewCrack AuthServer Running`);
 })
 
+const port=process.env.port || 5000;
 app.listen(port,()=>console.log(`Listening to port ${port}`));
